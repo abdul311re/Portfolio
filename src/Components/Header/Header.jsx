@@ -1,5 +1,7 @@
+import React, { useState, useEffect } from "react";
 import { NavDropdown ,Nav ,Navbar, Offcanvas,Container, Button , Image} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 import "./Header.scss";
 
 function Header() {
@@ -23,7 +25,7 @@ function Header() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-center flex-grow-1 pe-3 gap-3">
-                  <Nav.Link href="#action1" className="fw-bold nav-lists">Home</Nav.Link>
+                <Nav.Link    className="fw-bold nav-lists"><Link className="Home" to="/">Home</Link></Nav.Link>
                   <NavDropdown
                   className="fw-bold nav-lists"
                     title="Services"
@@ -39,7 +41,7 @@ function Header() {
                       Shopify Development
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#action2" className="fw-bold nav-lists">Portfolio</Nav.Link>
+                  <Nav.Link  to="/Portfolio" className="fw-bold nav-lists"><Link to="/Portfolio" className="Home">Portfolio</Link></Nav.Link>
                   <Nav.Link href="#action2" className="fw-bold nav-lists">Blog</Nav.Link>
                   <Nav.Link href="#action2" className="fw-bold nav-lists">About Us</Nav.Link>
                 </Nav>

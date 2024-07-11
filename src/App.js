@@ -1,17 +1,18 @@
-import React from "react";
-import Heropage from "./Pages/Hero/Heropage";
-import Header from "./Components/Header/Header";
-import './App.css';
-import Mission from "./Components/Mission/Mission";
 
-function App() {
-  return (<>
+// src/App.js
+import React from 'react';
+import Webroutes from './Routes/Webroutes';
+import Header from "./Components/Header/Header";
+import Footer from './Components/Footer/Footer';
+
+const App = () => {
+  return (
     <div className="App">
       <Header/>
-      <Heropage/>
-      <Mission />
+      <Webroutes />
+      <Footer/>
     </div>
-  </>);
-}
+  );
+};
 
 export default App;

@@ -2,10 +2,11 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  height:110px ;
 }
 .navbar{
-  width: 85%;
-  height: 65px;
+  width: 83%;
+  height: 70px;
   border-radius:15px ;
 }
 .navbartoggle{
@@ -39,7 +40,11 @@
   position: sticky;
   top: 20px;
 }
-
+.Home{
+  text-decoration: none;
+  color: gray;
+  font-size: 1.0rem;
+}
 @media screen and (max-width: 760px){
   .navbar{
     width: 100%;

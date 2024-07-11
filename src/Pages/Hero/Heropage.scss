@@ -6,8 +6,29 @@
   }
 }
 .Hero1-head{
- color: rgb(52, 13, 52);
- font-size: 3.5rem;
+ color:  rgb(24, 10, 65);
+ font-size: 4.5rem;
  font-weight: bold;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin: 0;
+}
+.Hero2-head{
+ color: rgb(22, 7, 69);
+ font-size: 2.5rem;
+ font-weight: bold;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.wordcard-1{
+  height: 87%;
+  box-shadow:5px 5px 2px  gray;
+  border-radius: 8px;
+  padding: 23px 20px;
+  text-align: center;
+  background-color: #fff;
+  transition: .3s ease;
+  cursor: pointer;
+}
+.wordcard-1:hover{
+ border: 4px solid #26b558 ;
+ height: 85%;
 }
